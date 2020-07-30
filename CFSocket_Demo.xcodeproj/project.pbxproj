@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00001EE824D25EAA00D79F41 /* CinChatMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 00001E8B24D25EAA00D79F41 /* CinChatMode.m */; };
+		00001EE924D25EAA00D79F41 /* CinChatModeDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = 00001E8E24D25EAA00D79F41 /* CinChatModeDAO.m */; };
+		00001EEA24D25EAA00D79F41 /* CinClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 00001E8F24D25EAA00D79F41 /* CinClient.m */; };
+		00001EEB24D25EAA00D79F41 /* CinConnectionAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 00001E9524D25EAA00D79F41 /* CinConnectionAgent.m */; };
+		00001EEC24D25EAA00D79F41 /* CinTransactionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00001E9924D25EAA00D79F41 /* CinTransactionManager.m */; };
+		00001EED24D25EAA00D79F41 /* CinTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 00001E9A24D25EAA00D79F41 /* CinTransaction.m */; };
+		00001EEE24D25EAA00D79F41 /* CinConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 00001E9D24D25EAA00D79F41 /* CinConnection.m */; };
+		00001EEF24D25EAA00D79F41 /* CinSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 00001E9E24D25EAA00D79F41 /* CinSocket.m */; };
+		00001EF024D25EAA00D79F41 /* CinRunLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = 00001EA024D25EAA00D79F41 /* CinRunLoop.m */; };
+		00001EF124D25EAA00D79F41 /* CinResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 00001EA324D25EAA00D79F41 /* CinResponse.m */; };
+		00001EF224D25EAA00D79F41 /* CinRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 00001EA424D25EAA00D79F41 /* CinRequest.m */; };
+		00001EF324D25EAA00D79F41 /* CinMessageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 00001EA524D25EAA00D79F41 /* CinMessageParser.m */; };
+		00001EF424D25EAA00D79F41 /* AudioSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00001EAE24D25EAA00D79F41 /* AudioSessionManager.m */; };
+		00001EF524D25EAA00D79F41 /* NSString+pinYing.m in Sources */ = {isa = PBXBuildFile; fileRef = 00001EB124D25EAA00D79F41 /* NSString+pinYing.m */; };
+		00001EF624D25EAA00D79F41 /* UIImage+ScaleAndCompress.m in Sources */ = {isa = PBXBuildFile; fileRef = 00001EB224D25EAA00D79F41 /* UIImage+ScaleAndCompress.m */; };
+		00001EF724D25EAA00D79F41 /* NSString+Date.m in Sources */ = {isa = PBXBuildFile; fileRef = 00001EB424D25EAA00D79F41 /* NSString+Date.m */; };
+		00001EF824D25EAA00D79F41 /* HanZiPinYin.m in Sources */ = {isa = PBXBuildFile; fileRef = 00001EB624D25EAA00D79F41 /* HanZiPinYin.m */; };
+		00001EF924D25EAA00D79F41 /* GCDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00001EB724D25EAA00D79F41 /* GCDManager.m */; };
+		00001EFA24D25EAA00D79F41 /* CinLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = 00001EB924D25EAA00D79F41 /* CinLanguage.m */; };
+		00001EFB24D25EAA00D79F41 /* CinEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 00001EBC24D25EAA00D79F41 /* CinEncrypt.m */; };
+		00001EFC24D25EAA00D79F41 /* sm4.c in Sources */ = {isa = PBXBuildFile; fileRef = 00001EBD24D25EAA00D79F41 /* sm4.c */; };
+		00001EFD24D25EAA00D79F41 /* CinConvertUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 00001EBE24D25EAA00D79F41 /* CinConvertUtil.m */; };
+		00001EFE24D25EAA00D79F41 /* CinUUIDTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 00001EC224D25EAA00D79F41 /* CinUUIDTool.m */; };
+		00001EFF24D25EAA00D79F41 /* NSDateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 00001EC324D25EAA00D79F41 /* NSDateUtils.m */; };
+		00001F0024D25EAA00D79F41 /* CinUIEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 00001EC424D25EAA00D79F41 /* CinUIEffect.m */; };
+		00001F0124D25EAA00D79F41 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 00001EC624D25EAA00D79F41 /* unzip.c */; };
+		00001F0224D25EAA00D79F41 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 00001EC724D25EAA00D79F41 /* zip.c */; };
+		00001F0324D25EAA00D79F41 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 00001EC924D25EAA00D79F41 /* ioapi.c */; };
+		00001F0424D25EAA00D79F41 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 00001ECA24D25EAA00D79F41 /* mztools.c */; };
+		00001F0524D25EAA00D79F41 /* ZipArchive.mm in Sources */ = {isa = PBXBuildFile; fileRef = 00001ECE24D25EAA00D79F41 /* ZipArchive.mm */; };
+		00001F0624D25EAA00D79F41 /* pinyin.c in Sources */ = {isa = PBXBuildFile; fileRef = 00001ED324D25EAA00D79F41 /* pinyin.c */; };
+		00001F0824D25EAA00D79F41 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 00001ED724D25EAA00D79F41 /* FMDatabaseQueue.m */; };
+		00001F0924D25EAA00D79F41 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 00001EDA24D25EAA00D79F41 /* FMDatabaseAdditions.m */; };
+		00001F0A24D25EAA00D79F41 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 00001EDB24D25EAA00D79F41 /* FMDatabase.m */; };
+		00001F0B24D25EAA00D79F41 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 00001EE024D25EAA00D79F41 /* FMDatabasePool.m */; };
+		00001F0C24D25EAA00D79F41 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 00001EE124D25EAA00D79F41 /* FMResultSet.m */; };
+		00001F0D24D25EAA00D79F41 /* FileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 00001EE524D25EAA00D79F41 /* FileUtil.m */; };
+		00001F0E24D25EAA00D79F41 /* CinQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 00001EE624D25EAA00D79F41 /* CinQueue.m */; };
+		00001F1324D2659600D79F41 /* CinChatMessageHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 00001F1224D2659600D79F41 /* CinChatMessageHandler.m */; };
+		00001F1624D2669600D79F41 /* CinClientManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00001F1524D2669600D79F41 /* CinClientManager.m */; };
+		00DCA3B924CEED7A00E65749 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DCA3B824CEED7A00E65749 /* AppDelegate.m */; };
+		00DCA3BF24CEED7A00E65749 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DCA3BE24CEED7A00E65749 /* ViewController.m */; };
+		00DCA3C224CEED7A00E65749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00DCA3C024CEED7A00E65749 /* Main.storyboard */; };
+		00DCA3C424CEED7D00E65749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00DCA3C324CEED7D00E65749 /* Assets.xcassets */; };
+		00DCA3C724CEED7D00E65749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00DCA3C524CEED7D00E65749 /* LaunchScreen.storyboard */; };
+		00DCA3CA24CEED7D00E65749 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00DCA3C924CEED7D00E65749 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00001E8824D25EAA00D79F41 /* CinClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CinClient.h; sourceTree = "<group>"; };
+		00001E8A24D25EAA00D79F41 /* CinChatMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CinChatMode.h; sourceTree = "<group>"; };
+		00001E8B24D25EAA00D79F41 /* CinChatMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CinChatMode.m; sourceTree = "<group>"; };
+		00001E8D24D25EAA00D79F41 /* CinChatModeDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CinChatModeDAO.h; sourceTree = "<group>"; };
+		00001E8E24D25EAA00D79F41 /* CinChatModeDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CinChatModeDAO.m; sourceTree = "<group>"; };
+		00001E8F24D25EAA00D79F41 /* CinClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CinClient.m; sourceTree = "<group>"; };
+		00001E9024D25EAA00D79F41 /* CinDBCreaterProtocal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CinDBCreaterProtocal.h; sourceTree = "<group>"; };
+		00001E9124D25EAA00D79F41 /* CinTransactionHandlerProtocal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CinTransactionHandlerProtocal.h; sourceTree = "<group>"; };
+		00001E9224D25EAA00D79F41 /* CinAppTerminateHandlerProtocal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CinAppTerminateHandlerProtocal.h; sourceTree = "<group>"; };
+		00001E9524D25EAA00D79F41 /* CinConnectionAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CinConnectionAgent.m; sourceTree = "<group>"; };
+		00001E9624D25EAA00D79F41 /* CinTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CinTransaction.h; sourceTree = "<group>"; };
+		00001E9724D25EAA00D79F41 /* CinTransactionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CinTransactionManager.h; sourceTree = "<group>"; };
+		00001E9824D25EAA00D79F41 /* CinConnectionAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CinConnectionAgent.h; sourceTree = "<group>"; };
+		00001E9924D25EAA00D79F41 /* CinTransactionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CinTransactionManager.m; sourceTree = "<group>"; };
+		00001E9A24D25EAA00D79F41 /* CinTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CinTransaction.m; sourceTree = "<group>"; };
+		00001E9C24D25EAA00D79F41 /* CinRunLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CinRunLoop.h; sourceTree = "<group>"; };
+		00001E9D24D25EAA00D79F41 /* CinConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CinConnection.m; sourceTree = "<group>"; };
+		00001E9E24D25EAA00D79F41 /* CinSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CinSocket.m; sourceTree = "<group>"; };
+		00001E9F24D25EAA00D79F41 /* CinConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CinConnection.h; sourceTree = "<group>"; };
+		00001EA024D25EAA00D79F41 /* CinRunLoop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CinRunLoop.m; sourceTree = "<group>"; };
+		00001EA124D25EAA00D79F41 /* CinSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CinSocket.h; sourceTree = "<group>"; };
+		00001EA324D25EAA00D79F41 /* CinResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CinResponse.m; sourceTree = "<group>"; };
+		00001EA424D25EAA00D79F41 /* CinRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CinRequest.m; sourceTree = "<group>"; };
+		00001EA524D25EAA00D79F41 /* CinMessageParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CinMessageParser.m; sourceTree = "<group>"; };
+		00001EA624D25EAA00D79F41 /* CinResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CinResponse.h; sourceTree = "<group>"; };
+		00001EA724D25EAA00D79F41 /* CinMessageProtocal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CinMessageProtocal.h; sourceTree = "<group>"; };
+		00001EA824D25EAA00D79F41 /* CinRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CinRequest.h; sourceTree = "<group>"; };
+		00001EA924D25EAA00D79F41 /* CinMessageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CinMessageParser.h; sourceTree = "<group>"; };
+		00001EAB24D25EAA00D79F41 /* CinUIEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CinUIEffect.h; sourceTree = "<group>"; };
+		00001EAC24D25EAA00D79F41 /* NSDateUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDateUtils.h; sourceTree = "<group>"; };
+		00001EAD24D25EAA00D79F41 /* CinUUIDTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CinUUIDTool.h; sourceTree = "<group>"; };
+		00001EAE24D25EAA00D79F41 /* AudioSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioSessionManager.m; sourceTree = "<group>"; };
+		00001EB024D25EAA00D79F41 /* NSString+Date.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Date.h"; sourceTree = "<group>"; };
+		00001EB124D25EAA00D79F41 /* NSString+pinYing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+pinYing.m"; sourceTree = "<group>"; };
+		00001EB224D25EAA00D79F41 /* UIImage+ScaleAndCompress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ScaleAndCompress.m"; sourceTree = "<group>"; };
+		00001EB324D25EAA00D79F41 /* NSString+pinYing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+pinYing.h"; sourceTree = "<group>"; };
+		00001EB424D25EAA00D79F41 /* NSString+Date.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Date.m"; sourceTree = "<group>"; };
+		00001EB524D25EAA00D79F41 /* UIImage+ScaleAndCompress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ScaleAndCompress.h"; sourceTree = "<group>"; };
+		00001EB624D25EAA00D79F41 /* HanZiPinYin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HanZiPinYin.m; sourceTree = "<group>"; };
+		00001EB724D25EAA00D79F41 /* GCDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDManager.m; sourceTree = "<group>"; };
+		00001EB824D25EAA00D79F41 /* pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pinyin.h; sourceTree = "<group>"; };
+		00001EB924D25EAA00D79F41 /* CinLanguage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CinLanguage.m; sourceTree = "<group>"; };
+		00001EBB24D25EAA00D79F41 /* CinConvertUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CinConvertUtil.h; sourceTree = "<group>"; };
+		00001EBC24D25EAA00D79F41 /* CinEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CinEncrypt.m; sourceTree = "<group>"; };
+		00001EBD24D25EAA00D79F41 /* sm4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sm4.c; sourceTree = "<group>"; };
+		00001EBE24D25EAA00D79F41 /* CinConvertUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CinConvertUtil.m; sourceTree = "<group>"; };
+		00001EBF24D25EAA00D79F41 /* CinEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CinEncrypt.h; sourceTree = "<group>"; };
+		00001EC024D25EAA00D79F41 /* sm4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sm4.h; sourceTree = "<group>"; };
+		00001EC124D25EAA00D79F41 /* CinQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CinQueue.h; sourceTree = "<group>"; };
+		00001EC224D25EAA00D79F41 /* CinUUIDTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CinUUIDTool.m; sourceTree = "<group>"; };
+		00001EC324D25EAA00D79F41 /* NSDateUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateUtils.m; sourceTree = "<group>"; };
+		00001EC424D25EAA00D79F41 /* CinUIEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CinUIEffect.m; sourceTree = "<group>"; };
+		00001EC624D25EAA00D79F41 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		00001EC724D25EAA00D79F41 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		00001EC824D25EAA00D79F41 /* ZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipArchive.h; sourceTree = "<group>"; };
+		00001EC924D25EAA00D79F41 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		00001ECA24D25EAA00D79F41 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		00001ECB24D25EAA00D79F41 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		00001ECC24D25EAA00D79F41 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		00001ECD24D25EAA00D79F41 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		00001ECE24D25EAA00D79F41 /* ZipArchive.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZipArchive.mm; sourceTree = "<group>"; };
+		00001ECF24D25EAA00D79F41 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		00001ED024D25EAA00D79F41 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		00001ED124D25EAA00D79F41 /* HanZiPinYin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HanZiPinYin.h; sourceTree = "<group>"; };
+		00001ED224D25EAA00D79F41 /* AudioSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioSessionManager.h; sourceTree = "<group>"; };
+		00001ED324D25EAA00D79F41 /* pinyin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pinyin.c; sourceTree = "<group>"; };
+		00001ED524D25EAA00D79F41 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		00001ED724D25EAA00D79F41 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		00001ED824D25EAA00D79F41 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		00001ED924D25EAA00D79F41 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		00001EDA24D25EAA00D79F41 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		00001EDB24D25EAA00D79F41 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		00001EDC24D25EAA00D79F41 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		00001EDD24D25EAA00D79F41 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		00001EDF24D25EAA00D79F41 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		00001EE024D25EAA00D79F41 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		00001EE124D25EAA00D79F41 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		00001EE224D25EAA00D79F41 /* GCDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDManager.h; sourceTree = "<group>"; };
+		00001EE424D25EAA00D79F41 /* FileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileUtil.h; sourceTree = "<group>"; };
+		00001EE524D25EAA00D79F41 /* FileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileUtil.m; sourceTree = "<group>"; };
+		00001EE624D25EAA00D79F41 /* CinQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CinQueue.m; sourceTree = "<group>"; };
+		00001EE724D25EAA00D79F41 /* CinLanguage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CinLanguage.h; sourceTree = "<group>"; };
+		00001F1124D2659600D79F41 /* CinChatMessageHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CinChatMessageHandler.h; sourceTree = "<group>"; };
+		00001F1224D2659600D79F41 /* CinChatMessageHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CinChatMessageHandler.m; sourceTree = "<group>"; };
+		00001F1424D2669600D79F41 /* CinClientManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CinClientManager.h; sourceTree = "<group>"; };
+		00001F1524D2669600D79F41 /* CinClientManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CinClientManager.m; sourceTree = "<group>"; };
+		00DCA3B424CEED7A00E65749 /* CFSocket_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFSocket_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00DCA3B724CEED7A00E65749 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00DCA3B824CEED7A00E65749 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		00DCA3BD24CEED7A00E65749 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		00DCA3BE24CEED7A00E65749 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		00DCA3C124CEED7A00E65749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00DCA3C324CEED7D00E65749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00DCA3C624CEED7D00E65749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00DCA3C824CEED7D00E65749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00DCA3C924CEED7D00E65749 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00DCA3B124CEED7A00E65749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00001E8624D25EAA00D79F41 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				00001E8724D25EAA00D79F41 /* client */,
+				00001EAA24D25EAA00D79F41 /* tool */,
+				00001F1424D2669600D79F41 /* CinClientManager.h */,
+				00001F1524D2669600D79F41 /* CinClientManager.m */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		00001E8724D25EAA00D79F41 /* client */ = {
+			isa = PBXGroup;
+			children = (
+				00001F0F24D264A400D79F41 /* handler */,
+				00001E9324D25EAA00D79F41 /* socket */,
+				00001E8824D25EAA00D79F41 /* CinClient.h */,
+				00001E8F24D25EAA00D79F41 /* CinClient.m */,
+				00001E9024D25EAA00D79F41 /* CinDBCreaterProtocal.h */,
+				00001E9124D25EAA00D79F41 /* CinTransactionHandlerProtocal.h */,
+				00001E9224D25EAA00D79F41 /* CinAppTerminateHandlerProtocal.h */,
+			);
+			path = client;
+			sourceTree = "<group>";
+		};
+		00001E9324D25EAA00D79F41 /* socket */ = {
+			isa = PBXGroup;
+			children = (
+				00001E9424D25EAA00D79F41 /* transaction */,
+				00001E9B24D25EAA00D79F41 /* core */,
+				00001EA224D25EAA00D79F41 /* message */,
+			);
+			path = socket;
+			sourceTree = "<group>";
+		};
+		00001E9424D25EAA00D79F41 /* transaction */ = {
+			isa = PBXGroup;
+			children = (
+				00001E9524D25EAA00D79F41 /* CinConnectionAgent.m */,
+				00001E9624D25EAA00D79F41 /* CinTransaction.h */,
+				00001E9724D25EAA00D79F41 /* CinTransactionManager.h */,
+				00001E9824D25EAA00D79F41 /* CinConnectionAgent.h */,
+				00001E9924D25EAA00D79F41 /* CinTransactionManager.m */,
+				00001E9A24D25EAA00D79F41 /* CinTransaction.m */,
+			);
+			path = transaction;
+			sourceTree = "<group>";
+		};
+		00001E9B24D25EAA00D79F41 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				00001E9C24D25EAA00D79F41 /* CinRunLoop.h */,
+				00001E9D24D25EAA00D79F41 /* CinConnection.m */,
+				00001E9E24D25EAA00D79F41 /* CinSocket.m */,
+				00001E9F24D25EAA00D79F41 /* CinConnection.h */,
+				00001EA024D25EAA00D79F41 /* CinRunLoop.m */,
+				00001EA124D25EAA00D79F41 /* CinSocket.h */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		00001EA224D25EAA00D79F41 /* message */ = {
+			isa = PBXGroup;
+			children = (
+				00001EA324D25EAA00D79F41 /* CinResponse.m */,
+				00001EA424D25EAA00D79F41 /* CinRequest.m */,
+				00001EA524D25EAA00D79F41 /* CinMessageParser.m */,
+				00001EA624D25EAA00D79F41 /* CinResponse.h */,
+				00001EA724D25EAA00D79F41 /* CinMessageProtocal.h */,
+				00001EA824D25EAA00D79F41 /* CinRequest.h */,
+				00001EA924D25EAA00D79F41 /* CinMessageParser.h */,
+			);
+			path = message;
+			sourceTree = "<group>";
+		};
+		00001EAA24D25EAA00D79F41 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				00001EAF24D25EAA00D79F41 /* category */,
+				00001EBA24D25EAA00D79F41 /* encryptTool */,
+				00001EE324D25EAA00D79F41 /* fileTool */,
+				00001ED424D25EAA00D79F41 /* FMDB */,
+				00001EC524D25EAA00D79F41 /* ZipArchive */,
+				00001ED224D25EAA00D79F41 /* AudioSessionManager.h */,
+				00001EAE24D25EAA00D79F41 /* AudioSessionManager.m */,
+				00001EE724D25EAA00D79F41 /* CinLanguage.h */,
+				00001EB924D25EAA00D79F41 /* CinLanguage.m */,
+				00001EC124D25EAA00D79F41 /* CinQueue.h */,
+				00001EE624D25EAA00D79F41 /* CinQueue.m */,
+				00001EAB24D25EAA00D79F41 /* CinUIEffect.h */,
+				00001EC424D25EAA00D79F41 /* CinUIEffect.m */,
+				00001EAD24D25EAA00D79F41 /* CinUUIDTool.h */,
+				00001EC224D25EAA00D79F41 /* CinUUIDTool.m */,
+				00001EE224D25EAA00D79F41 /* GCDManager.h */,
+				00001EB724D25EAA00D79F41 /* GCDManager.m */,
+				00001ED124D25EAA00D79F41 /* HanZiPinYin.h */,
+				00001EB624D25EAA00D79F41 /* HanZiPinYin.m */,
+				00001EAC24D25EAA00D79F41 /* NSDateUtils.h */,
+				00001EC324D25EAA00D79F41 /* NSDateUtils.m */,
+				00001ED324D25EAA00D79F41 /* pinyin.c */,
+				00001EB824D25EAA00D79F41 /* pinyin.h */,
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+		00001EAF24D25EAA00D79F41 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				00001EB024D25EAA00D79F41 /* NSString+Date.h */,
+				00001EB124D25EAA00D79F41 /* NSString+pinYing.m */,
+				00001EB224D25EAA00D79F41 /* UIImage+ScaleAndCompress.m */,
+				00001EB324D25EAA00D79F41 /* NSString+pinYing.h */,
+				00001EB424D25EAA00D79F41 /* NSString+Date.m */,
+				00001EB524D25EAA00D79F41 /* UIImage+ScaleAndCompress.h */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		00001EBA24D25EAA00D79F41 /* encryptTool */ = {
+			isa = PBXGroup;
+			children = (
+				00001EBB24D25EAA00D79F41 /* CinConvertUtil.h */,
+				00001EBC24D25EAA00D79F41 /* CinEncrypt.m */,
+				00001EBD24D25EAA00D79F41 /* sm4.c */,
+				00001EBE24D25EAA00D79F41 /* CinConvertUtil.m */,
+				00001EBF24D25EAA00D79F41 /* CinEncrypt.h */,
+				00001EC024D25EAA00D79F41 /* sm4.h */,
+			);
+			path = encryptTool;
+			sourceTree = "<group>";
+		};
+		00001EC524D25EAA00D79F41 /* ZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				00001EC624D25EAA00D79F41 /* unzip.c */,
+				00001EC724D25EAA00D79F41 /* zip.c */,
+				00001EC824D25EAA00D79F41 /* ZipArchive.h */,
+				00001EC924D25EAA00D79F41 /* ioapi.c */,
+				00001ECA24D25EAA00D79F41 /* mztools.c */,
+				00001ECB24D25EAA00D79F41 /* crypt.h */,
+				00001ECC24D25EAA00D79F41 /* zip.h */,
+				00001ECD24D25EAA00D79F41 /* unzip.h */,
+				00001ECE24D25EAA00D79F41 /* ZipArchive.mm */,
+				00001ECF24D25EAA00D79F41 /* mztools.h */,
+				00001ED024D25EAA00D79F41 /* ioapi.h */,
+			);
+			path = ZipArchive;
+			sourceTree = "<group>";
+		};
+		00001ED424D25EAA00D79F41 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				00001ED524D25EAA00D79F41 /* FMDatabase.h */,
+				00001ED724D25EAA00D79F41 /* FMDatabaseQueue.m */,
+				00001ED824D25EAA00D79F41 /* FMResultSet.h */,
+				00001ED924D25EAA00D79F41 /* FMDatabasePool.h */,
+				00001EDA24D25EAA00D79F41 /* FMDatabaseAdditions.m */,
+				00001EDB24D25EAA00D79F41 /* FMDatabase.m */,
+				00001EDC24D25EAA00D79F41 /* FMDatabaseQueue.h */,
+				00001EDD24D25EAA00D79F41 /* FMDB.h */,
+				00001EDF24D25EAA00D79F41 /* FMDatabaseAdditions.h */,
+				00001EE024D25EAA00D79F41 /* FMDatabasePool.m */,
+				00001EE124D25EAA00D79F41 /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		00001EE324D25EAA00D79F41 /* fileTool */ = {
+			isa = PBXGroup;
+			children = (
+				00001EE424D25EAA00D79F41 /* FileUtil.h */,
+				00001EE524D25EAA00D79F41 /* FileUtil.m */,
+			);
+			path = fileTool;
+			sourceTree = "<group>";
+		};
+		00001F0F24D264A400D79F41 /* handler */ = {
+			isa = PBXGroup;
+			children = (
+				00001F1024D2650300D79F41 /* ChatMessageHandler */,
+			);
+			path = handler;
+			sourceTree = "<group>";
+		};
+		00001F1024D2650300D79F41 /* ChatMessageHandler */ = {
+			isa = PBXGroup;
+			children = (
+				00001E8D24D25EAA00D79F41 /* CinChatModeDAO.h */,
+				00001E8E24D25EAA00D79F41 /* CinChatModeDAO.m */,
+				00001E8A24D25EAA00D79F41 /* CinChatMode.h */,
+				00001E8B24D25EAA00D79F41 /* CinChatMode.m */,
+				00001F1124D2659600D79F41 /* CinChatMessageHandler.h */,
+				00001F1224D2659600D79F41 /* CinChatMessageHandler.m */,
+			);
+			path = ChatMessageHandler;
+			sourceTree = "<group>";
+		};
+		00DCA3AB24CEED7A00E65749 = {
+			isa = PBXGroup;
+			children = (
+				00DCA3B624CEED7A00E65749 /* CFSocket_Demo */,
+				00DCA3B524CEED7A00E65749 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00DCA3B524CEED7A00E65749 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00DCA3B424CEED7A00E65749 /* CFSocket_Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00DCA3B624CEED7A00E65749 /* CFSocket_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				00DCA3B724CEED7A00E65749 /* AppDelegate.h */,
+				00DCA3B824CEED7A00E65749 /* AppDelegate.m */,
+				00DCA3BD24CEED7A00E65749 /* ViewController.h */,
+				00DCA3BE24CEED7A00E65749 /* ViewController.m */,
+				00001E8624D25EAA00D79F41 /* class */,
+				00DCA3C024CEED7A00E65749 /* Main.storyboard */,
+				00DCA3C324CEED7D00E65749 /* Assets.xcassets */,
+				00DCA3C524CEED7D00E65749 /* LaunchScreen.storyboard */,
+				00DCA3C824CEED7D00E65749 /* Info.plist */,
+				00DCA3C924CEED7D00E65749 /* main.m */,
+			);
+			path = CFSocket_Demo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00DCA3B324CEED7A00E65749 /* CFSocket_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00DCA3CD24CEED7D00E65749 /* Build configuration list for PBXNativeTarget "CFSocket_Demo" */;
+			buildPhases = (
+				00DCA3B024CEED7A00E65749 /* Sources */,
+				00DCA3B124CEED7A00E65749 /* Frameworks */,
+				00DCA3B224CEED7A00E65749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CFSocket_Demo;
+			productName = CFSocket_Demo;
+			productReference = 00DCA3B424CEED7A00E65749 /* CFSocket_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00DCA3AC24CEED7A00E65749 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = EDZ;
+				TargetAttributes = {
+					00DCA3B324CEED7A00E65749 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 00DCA3AF24CEED7A00E65749 /* Build configuration list for PBXProject "CFSocket_Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00DCA3AB24CEED7A00E65749;
+			productRefGroup = 00DCA3B524CEED7A00E65749 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00DCA3B324CEED7A00E65749 /* CFSocket_Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00DCA3B224CEED7A00E65749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00DCA3C724CEED7D00E65749 /* LaunchScreen.storyboard in Resources */,
+				00DCA3C424CEED7D00E65749 /* Assets.xcassets in Resources */,
+				00DCA3C224CEED7A00E65749 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00DCA3B024CEED7A00E65749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00001EF224D25EAA00D79F41 /* CinRequest.m in Sources */,
+				00001F0A24D25EAA00D79F41 /* FMDatabase.m in Sources */,
+				00001EF824D25EAA00D79F41 /* HanZiPinYin.m in Sources */,
+				00001F0124D25EAA00D79F41 /* unzip.c in Sources */,
+				00001F0224D25EAA00D79F41 /* zip.c in Sources */,
+				00001EF424D25EAA00D79F41 /* AudioSessionManager.m in Sources */,
+				00001EFE24D25EAA00D79F41 /* CinUUIDTool.m in Sources */,
+				00001F0924D25EAA00D79F41 /* FMDatabaseAdditions.m in Sources */,
+				00001EF624D25EAA00D79F41 /* UIImage+ScaleAndCompress.m in Sources */,
+				00001EF324D25EAA00D79F41 /* CinMessageParser.m in Sources */,
+				00001F0D24D25EAA00D79F41 /* FileUtil.m in Sources */,
+				00001EEF24D25EAA00D79F41 /* CinSocket.m in Sources */,
+				00001EED24D25EAA00D79F41 /* CinTransaction.m in Sources */,
+				00DCA3BF24CEED7A00E65749 /* ViewController.m in Sources */,
+				00001EEB24D25EAA00D79F41 /* CinConnectionAgent.m in Sources */,
+				00001F0C24D25EAA00D79F41 /* FMResultSet.m in Sources */,
+				00001EF024D25EAA00D79F41 /* CinRunLoop.m in Sources */,
+				00001EFF24D25EAA00D79F41 /* NSDateUtils.m in Sources */,
+				00001F0624D25EAA00D79F41 /* pinyin.c in Sources */,
+				00DCA3B924CEED7A00E65749 /* AppDelegate.m in Sources */,
+				00001EEE24D25EAA00D79F41 /* CinConnection.m in Sources */,
+				00001F0824D25EAA00D79F41 /* FMDatabaseQueue.m in Sources */,
+				00001F0E24D25EAA00D79F41 /* CinQueue.m in Sources */,
+				00001EF124D25EAA00D79F41 /* CinResponse.m in Sources */,
+				00001F0324D25EAA00D79F41 /* ioapi.c in Sources */,
+				00001F0424D25EAA00D79F41 /* mztools.c in Sources */,
+				00001EF724D25EAA00D79F41 /* NSString+Date.m in Sources */,
+				00001EFB24D25EAA00D79F41 /* CinEncrypt.m in Sources */,
+				00DCA3CA24CEED7D00E65749 /* main.m in Sources */,
+				00001EE824D25EAA00D79F41 /* CinChatMode.m in Sources */,
+				00001F0B24D25EAA00D79F41 /* FMDatabasePool.m in Sources */,
+				00001EF524D25EAA00D79F41 /* NSString+pinYing.m in Sources */,
+				00001EFC24D25EAA00D79F41 /* sm4.c in Sources */,
+				00001F0524D25EAA00D79F41 /* ZipArchive.mm in Sources */,
+				00001F1624D2669600D79F41 /* CinClientManager.m in Sources */,
+				00001F0024D25EAA00D79F41 /* CinUIEffect.m in Sources */,
+				00001EEC24D25EAA00D79F41 /* CinTransactionManager.m in Sources */,
+				00001EF924D25EAA00D79F41 /* GCDManager.m in Sources */,
+				00001EE924D25EAA00D79F41 /* CinChatModeDAO.m in Sources */,
+				00001EFA24D25EAA00D79F41 /* CinLanguage.m in Sources */,
+				00001F1324D2659600D79F41 /* CinChatMessageHandler.m in Sources */,
+				00001EEA24D25EAA00D79F41 /* CinClient.m in Sources */,
+				00001EFD24D25EAA00D79F41 /* CinConvertUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00DCA3C024CEED7A00E65749 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00DCA3C124CEED7A00E65749 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00DCA3C524CEED7D00E65749 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00DCA3C624CEED7D00E65749 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00DCA3CB24CEED7D00E65749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		00DCA3CC24CEED7D00E65749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00DCA3CE24CEED7D00E65749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CFSocket_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yangrui.CFSocket-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00DCA3CF24CEED7D00E65749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CFSocket_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yangrui.CFSocket-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00DCA3AF24CEED7A00E65749 /* Build configuration list for PBXProject "CFSocket_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00DCA3CB24CEED7D00E65749 /* Debug */,
+				00DCA3CC24CEED7D00E65749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00DCA3CD24CEED7D00E65749 /* Build configuration list for PBXNativeTarget "CFSocket_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00DCA3CE24CEED7D00E65749 /* Debug */,
+				00DCA3CF24CEED7D00E65749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00DCA3AC24CEED7A00E65749 /* Project object */;
+}
